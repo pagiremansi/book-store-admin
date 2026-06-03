@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function App() {
-  const API = "http://localhost:8081/api/books";
+  const API = "https://book-store-backend.onrender.com/api/books";
 
   const [books, setBooks] = useState([]);
   const [editId, setEditId] = useState(null);
